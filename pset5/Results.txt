@@ -1,0 +1,131 @@
+AUSTINPOWERS
+v1.0
+Voor ieder woord wordt de hash_function gecalled mbt dictionary laden
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         3.36
+TIME IN check:        0.51
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        3.88
+
+v1.1
+Voor ieder woord wordt de index gecheckt alvorens de hashfunctie te callen mbt dictionary laden
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         3.59
+TIME IN check:        0.54
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        4.13
+
+v1.11
+Geen gebruik maken van de hasfunctie voor het laden van de dictionary
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         3.56
+TIME IN check:        0.64
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        4.20
+
+v2.1
+Laatste while loop in dictionary load herschreven
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         3.44
+TIME IN check:        0.50
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        3.93
+
+v2.2
+Dictionary herschreven. Ieder nieuw woord wordt nu niet meer aan het eind van de lijst toegevoegd, maar juist aan het begin ingevoegd.
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.02
+TIME IN check:        0.42
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        0.44
+OOOOOOOOOMMMMMMMMMMMMMGGGGGGGGGGGGG wat een resultaat #Fissa
+
+v2.3
+Hash_function aangepast om ook het tweede karakter van de input te gebruiken om te hashen
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.04
+TIME IN check:        0.38
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        0.42
+
+v2.4
+Hash_function aangepast. Derde karakter wordt ook gebruikt om te hashen
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.02
+TIME IN check:        0.30
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        0.32
+
+v2.5
+Has_function iets aangepast
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.04
+TIME IN check:        0.24
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        0.28
+
+v2.51
+hash_function nu :    for (int i = 2; i--; )
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.03
+TIME IN check:        0.20
+TIME IN size:         0.00
+TIME IN unload:       0.00
+TIME IN TOTAL:        0.24
+
+v3.0
+betere hash_function
+WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.03
+TIME IN check:        0.03
+TIME IN size:         0.00
+TIME IN unload:       0.01
+TIME IN TOTAL:        0.07
+
+TOLSTOY
+WORDS MISSPELLED:     13008
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        567967
+TIME IN load:         0.04
+TIME IN check:        1.16
+TIME IN size:         0.00
+TIME IN unload:       0.02
+TIME IN TOTAL:        1.21
+
+Optimized further for tolstoy while keeping same time for austinpowers
+WORDS MISSPELLED:     13008
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        567967
+TIME IN load:         0.04
+TIME IN check:        0.50
+TIME IN size:         0.00
+TIME IN unload:       0.02
+TIME IN TOTAL:        0.56

@@ -1,0 +1,15 @@
+0.  https://nl.wikipedia.org/wiki/Pneumonoultramicroscopicsilicovolcanoconiosis. Het langste woord met een eigen lemma in het Engelse woordenboek.
+1.  getrusage houdt bij hoeveel resources een proces gebruikt in termen van runtime, cpu gebruik, memory gebruik etc.
+2.  16
+3.  Om de meting een startpunt en eindpunt te geven en zeker te weten dat het startpunt en eindpunt niet veranderen
+4.  een woord wordt in de array word geladen. Woorden met cijfers worden genegeerd. Indien het volgende karakter geen letter (incl. apostrof) of cijfer is, is het woord 'afgelopen' en wordt het de array met daarin het woord afgesloten.
+Vervolgens wordt de words counter 1 hoger. Het huidige woord in de array word wordt gecheckt op spelling en indien er geen match wordt gevonden met een woord in het woordenboek, returned het false, en wordt het fout gespelde wordt geprint.
+De index van array word wordt gereset en het herhaald zich.
+5.  Het is mogelijk dat er een cijfer is ingevoerd. Hierdoor zou er een error optreden als je het probeert te lezen als char.
+6.  Het woord is een constante gedurende het laden en checken.
+7.  Hashtable. Inside each node is a word and a pointer to the next node. Each word is assigned to a linked list based on the first characters of the word and its length.
+Assuming it doesn't work perfect, some buckets should be empty, but, given its speed, the words should be distributed somewhat evenly.
+8.  See Results.txt. The first time it took 3.88 seconds
+9.  The most drastic improvement was achieved by inserting each node at the head of the list and not at the tail.
+This saved 3 seconds in loadtime. Also, improving the hashfunction eventually shaved +- 0.4 seconds of the check time. But slightly increased unload time.
+10. Yes. The amount of buckets is not dynamic, so, it is possible that there are dictionaries containing words that, are hashed in buckets that exceed the bucketlist (PUN) and thus get lost.
